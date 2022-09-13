@@ -1,0 +1,23 @@
+.container-1 {
+    border: 2px solid black;
+    width: 75%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    border: 2px solid black;
+    padding: 5px;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    align-items: center;
+}
